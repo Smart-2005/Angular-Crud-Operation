@@ -1,0 +1,23 @@
+<table class="table" >
+    <thead>
+      <tr>
+        <th scope="col">Full Name</th>
+        <th scope="col">Country</th>
+        <th scope="col">Address</th>
+        <th scope="col">Contact</th>
+        <th scope="col">Options</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customerData of customerList">
+        <td>{{customerData.fullname}}</td>
+        <td>{{customerData.country}}</td>
+        <td>{{customerData.address}}</td>
+        <td>{{customerData.contact}}</td>
+        <td>
+            <button class="btn btn-danger" (click)="deleteDetails(customerData.id)"  > Delete </button> &nbsp;
+            <button class="btn btn-warning" routerLink="/home/update-customer/{{customerData.id}}" > Edit Doc </button>
+        </td>
+    </tbody>
+  </table>
+  <hr>

@@ -1,0 +1,32 @@
+.addCustomerForm{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formBody{
+    width: 40%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 40px;
+    box-shadow: -2px 1px 105px -33px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 105px -33px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 105px -33px rgba(0,0,0,0.75);
+}
+.form-control{
+    height: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.form-floating{
+    width: 80%;
+}

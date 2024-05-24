@@ -1,0 +1,47 @@
+
+<form class="makeOrderForm" [formGroup]="orderForm" (ngSubmit)="saveOrder()" >
+
+    <div class="formBody">
+        <div class="header">
+            <h3>Make Your Details</h3>
+        </div>
+        <hr>
+        <div class="form-data " >
+            <label for="customerName">Customer name</label>
+            <select  formControlName="customerName" style="border: 1px solid black; width: 100%; height: 40px" type="text" class="form-control" id="CustomerName">
+                <Option value="">Chose you Name</Option>
+                <Option 
+                *ngFor="let customer of customerNameList"
+                 value="{{customer.fullname}}"> {{customer.fullname}}
+                 </Option>
+
+            </select>
+        </div>
+
+        <div class="form-data">
+            <label for="ProductName">Product name</label>
+            <select formControlName="productName" style="border: 1px solid black; width: 100%; height: 40px; " type="text" class="form-control" placeholder="Product name" id="ProductName">
+                <Option value="">Chose Product</Option>
+                <Option 
+                *ngFor="let product of productNameList"
+                 value="{{product.productName}}"> {{product.productName}}
+                 </Option>
+            </select>
+        </div>
+
+        <div class="form-data">
+            <label for="Quantity">Quantity</label>
+            <input formControlName="quantity" style="border: 1px solid black; width: 100%; height: 40px" type="text" class="form-control" id="Quantity" placeholder="Quantity">
+        </div>
+        <div class="form-data">
+            <label for="floatingQuantity">Price</label>
+            <input formControlName="price" style="border: 1px solid black; width: 100%; height: 40px" value="hii" class="form-control" readonly>
+        </div>
+        
+        <div class="createCustomerBtn">
+            <button class="btn btn-info"  type="submit">Make Order</button>
+        </div>
+    </div>
+
+
+</form>

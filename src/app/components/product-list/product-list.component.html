@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Prodcut Name</th>
+        <th scope="col">Brand</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Options</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let productData of productList">
+        <td> {{productData.productName}} </td>
+        <td> {{productData.brand}} </td>
+        <td> {{productData.quantity}} </td>
+        <td> {{productData.price}} </td>
+        <td>
+            <button class="btn btn-danger" (click)="deleteDetails(productData.id)" > Delete </button> &nbsp;
+            <button class="btn btn-warning" routerLink="/home/update-product/{{productData.id}}" > Edit Doc </button>
+        </td>
+    </tbody>
+  </table>
