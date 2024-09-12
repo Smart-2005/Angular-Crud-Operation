@@ -1,0 +1,34 @@
+<form class="addCustomerForm" [formGroup]="customerForm" (ngSubmit)="createCustomer()" >
+
+    <div class="formBody">
+        <div class="header">
+            <h3>Fill Your Details</h3>
+        </div>
+        <hr>
+        <div class="form-floating mb-3 ">
+            <input formControlName="fullname" style="border: 1px solid black;" type="text" class="form-control" id="floatingFullname" placeholder="Thisura">
+            <label for="floatingFullname">Full name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="country" style="border: 1px solid black;" type="text" class="form-control" id="floatingCountry" placeholder="Country">
+            <label for="floatingCountry">Country</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="address" style="border: 1px solid black;" type="text" class="form-control" id="floatingAddress" placeholder="Address">
+            <label for="floatingAddress">Address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="contact" style="border: 1px solid black;" type="text" class="form-control" id="floatingContact" placeholder="Contact">
+            <label for="floatingContact">Contact</label>
+        </div>
+        
+        <div class="createCustomerBtn">
+            <button class="btn btn-success"  type="submit">Create</button>
+        </div>
+    </div>
+
+
+</form>

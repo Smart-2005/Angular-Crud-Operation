@@ -1,0 +1,34 @@
+<form class="addProductForm" [formGroup]="productForm" (ngSubmit)="updateDetails()">
+
+    <div class="formBody">
+        <div class="header">
+            <h3>Fill Product Details</h3>
+        </div>
+        <hr>
+        <div class="form-floating mb-3 ">
+            <input formControlName="productName" style="height: 30px; border: 1px solid black;" type="text" class="form-control" id="floatingProductname" placeholder="Thisura">
+            <label for="floatingProductname">Product Name</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="brand" style="border: 1px solid black;" type="text" class="form-control" id="floatingBrand" placeholder="Brand">
+            <label for="floatingBrand">Brand</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="quantity" style="border: 1px solid black;" type="text" class="form-control form-control-sm" id="floatingQuantity" placeholder="Quantity">
+            <label for="floatingQuantity">Quantity</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input formControlName="price" style="border: 1px solid black;" type="text" class="form-control" id="floatingPrice" placeholder="Price">
+            <label for="floatingPrice">Price</label>
+        </div>
+        
+        <div class="createCustomerBtn">
+            <button class="btn btn-info" type="submit"  >Add Product</button>
+        </div>
+    </div>
+
+
+</form>
