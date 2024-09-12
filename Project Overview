@@ -1,0 +1,29 @@
+#Project Overview
+
+-Angular Firebase CRUD Demo is a third-party project to M, which developed to show the experience in Angular and Firebase through a practical basic of CRUD (Create, Read, Update, Delete) operations. This project is my way of creating and connecting front-end applications with a real-time backend that can be used for both learning purposes and professional performance in this profession.
+
+#Purpose and Objectives
+
+-My main aim of this project is to present how it is possible to build scalable and extendable web applications with the help of the latest technologies. The main reasons were enclosed:
+
+-Gain Mastery: Depict my capability to connect Angular with Firebase, incorporating main attributes that are fundamental elements in web development.
+
+-Demonstrate Real-Time Application: Through the use of Angular's component-based architecture and Firebase's real-time database functionalities, I will make it more specific and comprehensible.
+
+#Features
+
+-Customer Management: Users are authorized to do all activities which are Add, view, update, and delete customer records, apart from this my database response time is fine also my relevant complications are out of sight.
+
+-Product Management: Supplies the engine of CRUD to the company for managing the categories according to the type of data management item with the feature of updating records.
+
+-Order Management: The construction of the order that can be made and the overview of them that is stored this case this is the best project of the really realistic use of Angular and Firebase that can efficiently manage the transactional data also throughout selected dashboard elements.
+
+-Responsive Design: The design is flexible and can be changed according to the screen size, I used Bootstrap as it is a powerful tool that helps to write the code quickly and simply making the website very easy to work on.
+
+#Key Contributions
+
+-Full-Stack Development: This one of real projects uses a dual backend operation where the front-end is for users, and the back-end is for workers that responsible for project process and transactions in it.
+
+-Technical Implementation: Authenticinally, I build the angular services and connect them to the real-time Firebase Database. And also constructed the database to become the real-time data feedback.
+
+-Design and Usability: I worked with Bootstrap and went to great lengths to construct a website that would not only be functional but also responsive and easy to navigate irrespective of device or screen dimensions.
