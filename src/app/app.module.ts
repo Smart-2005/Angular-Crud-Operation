@@ -22,7 +22,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 
 
 @NgModule({
-  declarations:[
+  declarations: [
     AppComponent,
     AddCustomerComponent,
     CustomerListComponent,
@@ -34,6 +34,7 @@ import { MainPageComponent } from './components/main-page/main-page.component';
     UpdateCustomerComponent,
     UpdateProductComponent,
     MainPageComponent],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
